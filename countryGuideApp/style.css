@@ -96,3 +96,12 @@ body {
     font-weight: 400;
     color: #ff465a;
 }
+
+@media (max-width: 500px) {
+    .container {
+        width: 90vw;
+    }
+    .search-wrapper {
+        grid-template-columns: auto;
+    }
+  }
